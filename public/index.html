@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File metadata</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+  </head>
+  <body>
+
+  <h1>File metadata micro-service</h1>
+    <!-- Post -->
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" value=""/>
+      <input type="submit" name="upload"/>
+    </form>
+    <!-- Usage -->
+    <p>
+      Usage
+    </p>
+    <div class="cont">
+      <p>
+        Click the button and select a file
+      </p>
+    </div>
+      <!-- Output -->
+    <p>
+      Output
+    </p>
+    <div class="cont">
+      <p>
+        {
+          "name": "my file",
+          "size": "1024 bytes"
+        }
+      </p>
+    </div>
+  </body>
+</html>
