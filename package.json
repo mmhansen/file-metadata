@@ -1,15 +1,28 @@
 {
   "name": "file-metadata",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "description": "file metadata",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.14.0",
     "multer": "^1.2.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmhansen/file-metadata.git"
+  },
+  "keywords": [
+    "FCC"
+  ],
+  "author": "Michael Hansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmhansen/file-metadata/issues"
+  },
+  "homepage": "https://github.com/mmhansen/file-metadata#readme"
 }
